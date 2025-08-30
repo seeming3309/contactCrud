@@ -1,0 +1,16 @@
+:root { --gap: .5rem; }
+body { font-family: system-ui, -apple-system, Arial; max-width: 900px; margin: 2rem auto; }
+h1 { margin-bottom: 0.5rem; }
+.row { display: flex; gap: var(--gap); margin-bottom: 1rem; }
+input, button { padding: .5rem .75rem; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { border: 1px solid #ccc; padding: .5rem; text-align: left; }
+tr:nth-child(even) { background: #fafafa; }
+.actions { display: flex; gap: var(--gap); }
+.notice { color: #666; font-size: .9rem; }
+button.primary { background: #2563eb; color: white; border: none; border-radius: 8px; }
+button.danger { background: #dc2626; color: white; border: none; border-radius: 8px; }
+button.ghost { background: transparent; border: 1px solid #999; border-radius: 8px; }
+footer { margin-top: 2rem; color: #777; font-size: .85rem; }
+input.inline { width: 100%; box-sizing: border-box; }
+td > .inline-wrap { display: flex; gap: .25rem; }
