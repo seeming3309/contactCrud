@@ -30,7 +30,7 @@ jobs:
         working-directory: ./frontend
         env:
           # ⚠️ 將 REPO_NAME 換成你的 repo 名稱，例如 my-project
-          VITE_BASE: "/REPO_NAME/"
+          VITE_BASE: "/contactCrud/"
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
